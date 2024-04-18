@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $section = $_POST["section"];
 
     // Path to your zip file containing the .docx template
-    $zipFilePath = "https://drive.google.com/uc?export=download&id=1nbIxNGuA_o2jesvGgce3uCEgSQtuA5AD";
+    $zipFilePath = "https://github.com/BarnawarSumit/testing-okay/raw/main/template.zip";
 
     // Extract the zip file
     $zip = new ZipArchive;
